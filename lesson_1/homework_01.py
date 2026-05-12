@@ -2,7 +2,7 @@
 print("Hello", end = " ")
 print("world!")
 
-# task 02 == Виправте синтаксичні помилки
+# task 02 == Виправте синтаксичні помилк
 hello = "Hello"
 world = "world"
 if True:
