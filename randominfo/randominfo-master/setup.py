@@ -22,7 +22,6 @@ setuptools.setup(
     install_requires = ["pillow>=5.4.1", "pytz>=2018.5"],
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
 )
