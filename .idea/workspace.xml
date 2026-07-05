@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e36ffb2-2a3b-43b0-8e45-73d2e6f879a3" name="Changes" comment="Виконані зміни">
+      <change beforePath="$PROJECT_DIR$/randominfo/randominfo-master/setup.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/randominfo/randominfo-master/setup.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/randominfo/randominfo-master/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/randominfo/randominfo-master/setup.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PV-VP&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PV-VP/hillel_playwright_rep.git&quot;,
+    &quot;accountId&quot;: &quot;a2e07ad4-fb08-4e68-b17a-735f425bcc1a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3EOOcBAAhgRi9htwLE7ncN43UqQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests in test_homeworks_12.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python.homework_04.executor": "Run",
+    "Python.homework_07.executor": "Run",
+    "Python.homework_08.executor": "Run",
+    "Python.homework_09.executor": "Run",
+    "Python.homework_10.executor": "Run",
+    "Python.homework_10_1.executor": "Run",
+    "Python.homework_11.executor": "Run",
+    "Python.homework_12.executor": "Run",
+    "Python.homework_13.executor": "Run",
+    "Python.homework_15.executor": "Run",
+    "Python.setup.executor": "Run",
+    "Python.test_login.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "homework__16__1",
+    "last_opened_file_path": "C:/Users/pasha/PycharmProjects/ithillel_playwright/lesson_16",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\lesson_16" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\lesson_15\xml_files" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\lesson_15" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\lesson_15\csv_files" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\lesson_15\json_files" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="ithillel_playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (ithillel_playwright)" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/OneDrive/Рабочий стол/randominfo/randominfo-master " />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="SCRIPT_NAME" value="$USER_HOME$/OneDrive/Рабочий стол/randominfo/randominfo-master/setup.py" />
+      <option name="PARAMETERS" value="install" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e36ffb2-2a3b-43b0-8e45-73d2e6f879a3" name="Changes" comment="Виконані зміни" />
+      <created>1780046227186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780046227186</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
