@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  postgres_db:
+    image: postgres:15-alpine
+    container_name: postgres_teacher_db
+    restart: always
+    environment:
+      POSTGRES_USER: teacher             # Логін суперкористувача (Username)
+      POSTGRES_PASSWORD: super_password  # Пароль (Password)
+      POSTGRES_DB: education_platform    # Назва бази даних за замовчуванням (Database)
+    ports:
+      - "5432:                          "                      # Порт для підключення
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # Збереження даних на вашому ПК
+
+volumes:
+  pgdata:
+
+
+
+
+#docker compose up -d
