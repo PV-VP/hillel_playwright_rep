@@ -2,7 +2,7 @@
 import unittest
 from pathlib import Path
 
-from homework_13 import log_event
+#from homework_13 import log_event
 
 class TestLogEvent(unittest.TestCase):
 
