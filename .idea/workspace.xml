@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e36ffb2-2a3b-43b0-8e45-73d2e6f879a3" name="Changes" comment="Виконані зміни">
-      <change afterPath="$PROJECT_DIR$/contract/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contract/api/expense.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/api_session.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/facad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api_test/car_tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/api_test/car_tests/expense_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/utils/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_12/test_homeworks_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_12/test_homeworks_12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_13/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/test_login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
