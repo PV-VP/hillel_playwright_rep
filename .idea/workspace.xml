@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e36ffb2-2a3b-43b0-8e45-73d2e6f879a3" name="Changes" comment="Виконані зміни">
+      <change afterPath="$PROJECT_DIR$/contract/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contract/api/expense.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/api_session.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/facad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api_test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api_test/car_tests/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/api_test/car_tests/expense_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/utils/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/utils/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_12/test_homeworks_12.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_12/test_homeworks_12.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_13/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_13/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PV-VP&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PV-VP/hillel_playwright_rep.git&quot;,
+    &quot;accountId&quot;: &quot;a2e07ad4-fb08-4e68-b17a-735f425bcc1a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3EOOcBAAhgRi9htwLE7ncN43UqQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python tests.Python tests for test_orm_homework_21.test_orm.executor": "Run",
+    "Python tests.Python tests in homework_13.py.executor": "Run",
+    "Python tests.Python tests in homework_17.py.executor": "Run",
+    "Python tests.Python tests in test_homeworks_12.py.executor": "Run",
+    "Python tests.Python tests in test_login.py.executor": "Run",
+    "Python tests.Python tests in test_orm_homework_21.py.executor": "Run",
+    "Python tests.pytest for car_test.test_car_test.executor": "Run",
+    "Python tests.pytest for tests.api_test.car_tests.expense_test.executor": "Run",
+    "Python tests.pytest in car_test.py.executor": "Run",
+    "Python tests.pytest in test_orm_homework_21.py.executor": "Run",
+    "Python.api_session.executor": "Debug",
+    "Python.app.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.create_tables.executor": "Run",
+    "Python.homework_04.executor": "Run",
+    "Python.homework_07.executor": "Run",
+    "Python.homework_08.executor": "Run",
+    "Python.homework_09.executor": "Run",
+    "Python.homework_10.executor": "Run",
+    "Python.homework_10_1.executor": "Run",
+    "Python.homework_11.executor": "Run",
+    "Python.homework_12.executor": "Run",
+    "Python.homework_13.executor": "Run",
+    "Python.homework_15.executor": "Run",
+    "Python.homework_17.executor": "Run",
+    "Python.homework_18_1.executor": "Run",
+    "Python.homework_18_2.executor": "Run",
+    "Python.homework_19.executor": "Run",
+    "Python.homework_20.executor": "Run",
+    "Python.homework_21.executor": "Run",
+    "Python.orm_student_table.executor": "Run",
+    "Python.seed_data.executor": "Run",
+    "Python.setup.executor": "Run",
+    "Python.test_login.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "homework__21",
+    "last_opened_file_path": "C:/Users/pasha/PycharmProjects/ithillel_playwright/lesson_16",
+    "settings.editor.selected.configurable": "editor.preferences.import"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\lesson_16" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\tests\api_test" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\utils" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\core" />
+      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\tests\db_tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for tests.api_test.car_tests.expense_test">
+    <configuration name="Python tests for test_orm_homework_21.test_orm" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="ithillel_playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/db_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_orm_homework_21.test_orm&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests.api_test.car_tests.expense_test" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="ithillel_playwright" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/api_test/car_tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.api_test.car_tests.expense_test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for tests.api_test.car_tests.expense_test" />
+        <item itemvalue="Python tests.Python tests for test_orm_homework_21.test_orm" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e36ffb2-2a3b-43b0-8e45-73d2e6f879a3" name="Changes" comment="Виконані зміни" />
+      <created>1780046227186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780046227186</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

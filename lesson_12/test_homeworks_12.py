@@ -1,5 +1,5 @@
 import unittest
-from homework_12 import multiplication_table, sum_two_didgits, arithmetic_mean, str_revert, longest_word, fruits
+#from homework_12 import multiplication_table, sum_two_didgits, arithmetic_mean, str_revert, longest_word, fruits
 
 class TestFunctions(unittest.TestCase):
 
