@@ -18,6 +18,12 @@ class ApiSession:
         self.session = requests.Session()
         self.__token = token    # приватне поле для токена авторизації (sid)
 
+    @property
+    def token(self):
+        if self.__token is None:
+            self.get_token()
+        return self.__token
+
     def get_token(self):
         resp = self.session.post(url=f'{self.base_url}/api/auth/signin',    # запит на логін з email/паролем
                                  json={"email":self.user_login,
