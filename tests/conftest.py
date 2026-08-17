@@ -5,7 +5,7 @@ from tests.api_test.car_tests.expense_test import CAR_ID    # імпорт ID м
 
 
 @pytest.fixture(scope="session")    # фікстура створюється один раз на всю сесію тестів
-def api() -> ApiClient:
+def api_session() -> ApiClient:
     return ApiClient()  # створює єдиний екземпляр клієнта API
 
 @pytest.fixture
