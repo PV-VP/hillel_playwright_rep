@@ -10,6 +10,28 @@ from ui_models.base_page import BasePage
 
 load_dotenv(dotenv_path=Path(__file__).resolve().parent.parent.parent.parent / "utils" / ".env")
 
+@pytest.fixture(scope="session")    # фікстура створюється один раз на всю сесію тестів
+def api() -> ApiClient:
+    return ApiClient()  # створює єдиний екземпляр клієнта API
+
+@pytest.fixture
+def delete_car_api(api):
+    list_obj_to_delete = []
+    yield list_obj_to_delete
+    if list_obj_to_delete:
+        for resp in list_obj_to_delete:
+            expense_id_to_delete = api.expense.delete_car(resp)
+            expense_resp_id = api.expense.get_expense_by_id(resp, 404)
+
+@pytest.fixture
+def delete_car(api):
+    list_obj_to_delete = []
+    yield api, list_obj_to_delete
+    if list_obj_to_delete:
+        for resp in list_obj_to_delete:
+            car_id = resp.json().get('data').get('id')
+            expense_id_to_delete = api.expense.delete_car(car_id)
+            expense_resp_id = api.expense.get_expense_by_id(car_id, 404)
 
 @pytest.fixture(scope="session")
 def browser_context_args(browser_context_args):

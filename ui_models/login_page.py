@@ -22,6 +22,12 @@ class LoginPage(BasePage):
         self.button_login_in_signin_form = page.get_by_role("button", name="Login")
 
     def login(self, email:str, password:str) -> None:
+        '''
+        This function click buttion "Sighn In" and fill email and password and click button 'Login
+        :param email: enter some email should be str
+        :param password: enter some password should be str
+        :return: None, but if success shoul be redirect to other page
+        '''
         self.button_signin.click()
         self.email_edit_form.fill(email)
         self.password_edit_form.fill(password)
