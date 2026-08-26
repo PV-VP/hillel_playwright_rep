@@ -1,3 +1,4 @@
+#описує як запустити один або декілько контейнерів
 version: '3.8'
 
 services:
@@ -10,7 +11,7 @@ services:
       POSTGRES_PASSWORD: super_password  # Пароль (Password)
       POSTGRES_DB: education_platform    # Назва бази даних за замовчуванням (Database)
     ports:
-      - "5432:                          "                      # Порт для підключення
+      - "5432:5432"                      # Порт для підключення
     volumes:
       - pgdata:/var/lib/postgresql/data  # Збереження даних на вашому ПК
 
