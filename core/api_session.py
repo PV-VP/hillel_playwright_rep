@@ -46,14 +46,14 @@ class ApiSession:
             self.session.cookies.update({'sid': self.__token})  # якщо токен вже є — просто підставити в cookies (без повторного логіну)
 
     def get(self, **kwargs):
-        self.auth() # гарантує, що сесія авторизована перед запитом
+        self.auth()  # гарантує, що сесія авторизована перед запитом
         if 'item_id' in kwargs:  # якщо переданий item_id — URL з ID в кінці (запит конкретного об'єкта)
-            url_= f'{self.base_url}{self.path}/{kwargs.get('item_id')}'
+            url_ = f'{self.base_url}{kwargs.get("path")}/{kwargs.get('item_id')}'
         else:
-            url_= f'{self.base_url}{self.path}' # інакше — URL без ID (запит списку)
-        logger_api.info(f'Request -> Method: GET for url:{url_}')  #логи для методу
-        resp = self.session.get(url=f'{url_}', params=kwargs.get("params"))  #GET-запит з опційними query-параметрами
-        logger_api.info(f'Response -> status code:{url_} resp:{resp.json()}')   # лог статусу і тіла відповіді
+            url_ = f'{self.base_url}{kwargs.get("path")}'  # інакше — URL без ID (запит списку)
+        logger_api.info(f'Request -> Method: GET for url:{url_}')  # логи для методу
+        resp = self.session.get(url=f'{url_}', params=kwargs.get("params"))  # GET-запит з опційними query-параметрами
+        logger_api.info(f'Response -> status code:{url_} resp:{resp.json()}')  # лог статусу і тіла відповіді
         return resp
 
     def post(self, **kwargs):
@@ -65,8 +65,8 @@ class ApiSession:
 
     def delete(self, **kwargs):
         self.auth()
-        logger_api.info(f'Request -> Method: DELETE for url:{self.base_url}{self.path}')  # логи для методу
-        resp = self.session.delete(url=f'{self.base_url}{self.path}/{kwargs.get("item_id")}')   # DELETE-запит з ID об'єкта в URL
+        logger_api.info(f'Request -> Method: DELETE for url:{self.base_url}{kwargs.get("path")}')  # логи для методу
+        resp = self.session.delete(url=f'{self.base_url}{kwargs.get("path")}')  # DELETE-запит з ID об'єкта в URL
         logger_api.info(f'Response -> status code:{resp.status_code} resp:{resp.json()}')
         return resp
 
