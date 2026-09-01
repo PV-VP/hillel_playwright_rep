@@ -8,7 +8,7 @@ from playwright.sync_api import Page, expect
 from ui_models.car_garage import CarGaragePage
 from ui_models.login_page import LoginPage
 
-
+@pytest.mark.ui_test
 def test_login_no_pom(page: Page) -> None:
     page.goto("/")
     # page2 = page.context.new_page()
@@ -22,6 +22,7 @@ def test_login_no_pom(page: Page) -> None:
     page.wait_for_load_state("networkidle")
     expect(page.locator('//app-alert')).to_have_text('You have been successfully logged in')
 
+@pytest.mark.ui_test
 @pytest.mark.parametrize('email, password, status', [
     (os.getenv('USER_LOGIN'),os.getenv('USER_PASSWORD'), 'success'),
     ('qwe@gmail.com', os.getenv('USER_LOGIN'), 'failed')])
@@ -34,6 +35,7 @@ def test_2(page:Page, email, password, status) -> None:
     elif status == 'failed':
         expect(login_page.alert_danger_locator).to_have_text('Wrong email or password')
 
+@pytest.mark.ui_test
 def test_create_car(auth_login, delete_car_api):
     car_page = CarGaragePage(auth_login)
     car_page.open()
@@ -47,5 +49,5 @@ def test_create_car(auth_login, delete_car_api):
         car_page.car_button_add_car.click()
         print(response_info)
     resp_car_id = response_info.value.json()['data']['id']
-    delete_car_api[-1].append(resp_car_id)
+    delete_car_api.append(resp_car_id)
     expect(car_page.alert_success_locator).to_have_text('Car added')
