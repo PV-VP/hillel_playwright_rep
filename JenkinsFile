@@ -36,6 +36,16 @@ pipeline {
     post {
         always {
             allure commandline: 'allure-results', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'allure-results']]
+            emailext (
+                subject: "Jenkins: ${currentBuild.fullDisplayName} - ${currentBuild.currentResult}",
+                body: """
+                    Job: ${env.JOB_NAME} #${env.BUILD_NUMBER}
+                    Статус: ${currentBuild.currentResult}
+                    Деталі: ${env.BUILD_URL}
+                    Allure звіт: ${env.BUILD_URL}allure/
+                """,
+                to: 'pashamazurov@gmail.com'
+            )
         }
     }
 }
