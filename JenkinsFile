@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Git clone rep') {
+            steps {
+                // Використання облікових даних для клонування репозиторію
+                git branch: 'homework_31', url: 'https://github.com/PV-VP/hillel_playwright_rep.git'
+            }
+        }
+        stage('Install dependencies') {
+            steps {
+                sh '''
+                #!/bin/bash
+                apt-get update && apt-get install -y python3-venv
+                python3 -m venv venv
+                source venv/bin/activate
+                pip install -r requirements.txt
+                '''
+            }
+        }
+        stage('Run tests') {
+            steps {
+                sh '''
+                #!/bin/bash
+                source venv/bin/activate
+                echo "BASIC_URL=${UI_URL}" > .env
+                echo "USER_LOGIN=${USER_EMAIL_LOGIN}" >> .env
+                echo "USER_PASSWORD=${USER_PASSWORD_LOGIN}" >> .env
+                echo "AUTH_BASIC_USER=guest" >> .env
+                echo "AUTH_BASIC_PASSWORD=welcome2qauto" >> .env
+                pytest -m ${MARKS} --alluredir=allure-results'''
+            }
+        }
+    }
+    post {
+        always {
+            allure commandline: 'allure-results', includeProperties: false, jdk: '', resultPolicy: 'LEAVE_AS_IS', results: [[path: 'allure-results']]
+        }
+    }
+}
