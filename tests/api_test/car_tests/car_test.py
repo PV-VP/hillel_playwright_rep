@@ -43,7 +43,7 @@ def test_delete_all_car(api):
 @pytest.mark.api_test
 def test_delete_all_car_pl(api_pl):
     response_car = api_pl.get('/api/cars')
-    assert response_car.status == 201
+    assert response_car.status == 200
     for car in response_car.json().get('data'):
         api_pl.delete(f'/api/cars/{car.get('id')}')
         response_get_by_id = api_pl.get(f'/api/cars/{car.get('id')}')
