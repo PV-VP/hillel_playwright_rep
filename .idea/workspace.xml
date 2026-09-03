@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e36ffb2-2a3b-43b0-8e45-73d2e6f879a3" name="Changes" comment="Виконані зміни">
-      <change afterPath="$PROJECT_DIR$/lesson_26/test_homework_26.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ui_tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ui_tests/login_page_test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ui_tests/login_page_test/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ui_tests/login_page_test/first_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/ui_tests/login_page_test/pom_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_models/base_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ui_models/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jenkins/jenkins_conf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/api_session.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/api_session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_26/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_26/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_26/homework_26.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/api_test/car_tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/.env" beforeDir="false" afterPath="$PROJECT_DIR$/utils/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ui_tests/login_page_test/pom_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ui_tests/login_page_test/pom_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +50,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
     "Python tests.Python tests for test_orm_homework_21.test_orm.executor": "Run",
     "Python tests.Python tests in homework_13.py.executor": "Run",
     "Python tests.Python tests in homework_17.py.executor": "Run",
@@ -76,7 +65,9 @@
     "Python tests.pytest for test_homework_26.test_add_carr.executor": "Run",
     "Python tests.pytest for test_homework_26.test_add_carr_2.executor": "Run",
     "Python tests.pytest for tests.api_test.car_tests.expense_test.executor": "Run",
+    "Python tests.pytest for tests.ui_tests.login_page_test.pom_test.test_login_no_pom.executor": "Run",
     "Python tests.pytest in car_test.py.executor": "Run",
+    "Python tests.pytest in expense_test.py.executor": "Run",
     "Python tests.pytest in first_test.py.executor": "Run",
     "Python tests.pytest in homework_26.py.executor": "Run",
     "Python tests.pytest in pom_test.py.executor": "Run",
@@ -111,26 +102,44 @@
     "Python.setup.executor": "Run",
     "Python.test_login.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "homework__26",
-    "last_opened_file_path": "C:/Users/pasha/PycharmProjects/ithillel_playwright/tests/ui_tests/login_page_test/test-results",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "homework__30",
+    "last_opened_file_path": "/Users/user/PycharmProjects/PythonProject/hillel_playwright_rep/lesson_29",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\tests\ui_tests\login_page_test\test-results" />
-      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\lesson_16" />
+      <recent name="$PROJECT_DIR$/lesson_29" />
+      <recent name="$PROJECT_DIR$/contract/api" />
+      <recent name="$PROJECT_DIR$/models/car_model" />
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/tests/api_test/car_tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\tests\ui_tests\login_page_test" />
       <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\tests" />
       <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright" />
       <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\tests\api_test" />
-      <recent name="C:\Users\pasha\PycharmProjects\ithillel_playwright\utils" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for tests.ui_tests.login_page_test.pom_test.test_login_no_pom">
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for first_test.test_example" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="ithillel_playwright" />
       <option name="ENV_FILES" value="" />
@@ -141,6 +150,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -158,6 +169,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -175,27 +188,12 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;pom_test.test_login_no_pom&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_homework_26.test_add_carr" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="ithillel_playwright" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lesson_26" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_homework_26.test_add_carr&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -209,6 +207,8 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="RUN_TOOL" value="" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
@@ -216,27 +216,46 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for tests.ui_tests.login_page_test.pom_test.test_login_no_pom" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="hillel_playwright_rep" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <option name="RUN_TOOL" value="" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.ui_tests.login_page_test.pom_test.test_login_no_pom&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Python tests.pytest for tests.ui_tests.login_page_test.pom_test.test_login_no_pom" />
       <item itemvalue="Python tests.pytest for first_test.test_example" />
       <item itemvalue="Python tests.pytest for pom_test.test_2" />
       <item itemvalue="Python tests.pytest for pom_test.test_login_no_pom" />
-      <item itemvalue="Python tests.pytest for test_homework_26.test_add_carr" />
       <item itemvalue="Python tests.pytest for test_homework_26.test_add_carr_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for tests.ui_tests.login_page_test.pom_test.test_login_no_pom" />
         <item itemvalue="Python tests.pytest for pom_test.test_2" />
         <item itemvalue="Python tests.pytest for first_test.test_example" />
         <item itemvalue="Python tests.pytest for pom_test.test_login_no_pom" />
         <item itemvalue="Python tests.pytest for test_homework_26.test_add_carr_2" />
-        <item itemvalue="Python tests.pytest for test_homework_26.test_add_carr" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
       </set>
     </attachedChunks>
   </component>
@@ -250,6 +269,9 @@
       <updated>1780046227186</updated>
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,0 +1,25 @@
+
+
+
+
+
+
+#!/bin/bash
+apt-get update && apt-get install -y python3-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+
+альттернатива буде
+. venv/bin/activate
+
+
+#!/bin/bash
+source venv/bin/activate
+echo "UI_URL=${UI_URL}" > .env
+echo "LOGIN=${USER_EMAIL_LOGIN}" >> .env
+echo "PASSWORD=${USER_PASSWORD_LOGIN}" >> .env
+echo "AUTH_BASIC_USER=guest" >> .env
+echo "AUTH_BASIC_PASSWORD=welcome2qauto" >> .env
+pytest -m ${MARKS} --alluredir=allure-results
